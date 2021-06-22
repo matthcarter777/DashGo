@@ -1,0 +1,15 @@
+import {  Flex, Input, Text, Icon, HStack, Box, Avatar } from '@chakra-ui/react';
+
+export function Logo() {
+  return(
+    <Text
+      fontSize="3xl"
+      fontWeight="bold"
+      letterSpacing="tight"
+      width="64"
+    >
+      dashgo
+      <Text as="span" ml="1" color="pink.500">.</Text>
+    </Text>
+  );
+}
